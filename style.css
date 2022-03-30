@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+#cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  width: 20%;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  cursor: pointer;
+}
+.card:hover .title {
+  color: rgb(255, 1, 1);
+}
+.title {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+.category,
+.price {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 1.2rem;
+  font-size: 1.4rem;
+}
+.description {
+  text-align: start;
+  line-height: 1.4rem;
+}
+.images {
+  width: 20%;
+  margin-bottom: 2rem;
+}
+.card:hover .images {
+  transform: scale(1.4);
+}
