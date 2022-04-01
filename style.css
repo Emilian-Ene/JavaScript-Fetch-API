@@ -5,12 +5,18 @@
 }
 html {
   font-family: Georgia, "Times New Roman", Times, serif;
-  
 }
 .heading {
   text-align: center;
   font-size: 4rem;
   margin: 2rem;
+}
+
+input {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 2px solid rgb(228, 12, 12);
 }
 #cards {
   display: flex;
@@ -54,20 +60,19 @@ html {
 @media (max-width: 1400px) {
   .card {
     width: 25%;
-    
   }
-  .heading {
-    text-align: center;
-    font-size: 2rem;
-    margin: 2rem;
-  }
-  .title {
-    font-size: 1.2rem; 
-  }
+}
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
+}
+.title {
+  font-size: 1.2rem;
+}
 @media (max-width: 1100px) {
   .card {
     width: 30%;
-    
   }
   .heading {
     text-align: center;
@@ -75,33 +80,35 @@ html {
     margin: 2rem;
   }
   .title {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
   }
-  
+}
 @media (max-width: 960px) {
   .card {
     width: 75%;
     font-size: 90%;
   }
   .title {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
   }
   .heading {
     text-align: center;
     font-size: 2rem;
     margin: 2rem;
   }
-  @media (max-width: 600px) {
-    .card {
-      width: 80%;
-      font-size: 90%;
-    }
-    .title {
-      font-size: 1.2rem;
-      
-    }
-    .heading {
-      text-align: center;
-      font-size: 2rem;
-      margin: 2rem;
-    }
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 80%;
+    font-size: 90%;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .heading {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+  }
+}
